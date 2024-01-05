@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 1rem = 18px */
+    font-size: 18px;
+    /* Mặc định không khai báo font-size. browser sẽ quy định 1rem = 16px */
+}
+
+html,
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
